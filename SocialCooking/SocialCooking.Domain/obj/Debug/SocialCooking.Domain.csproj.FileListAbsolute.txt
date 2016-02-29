@@ -1,0 +1,5 @@
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Debug\SocialCooking.Domain.dll
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Debug\SocialCooking.Domain.pdb
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.csprojResolveAssemblyReference.cache
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.dll
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.pdb
