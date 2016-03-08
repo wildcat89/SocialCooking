@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SocialCooking.Domain")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Netcompany A/S")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SocialCooking.Domain")]
-[assembly: AssemblyCopyright("Copyright © Netcompany A/S 2016")]
+[assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("10139b00-9eb5-415f-8114-00ee9fac7c91")]
+[assembly: Guid("bcd94e00-f58f-49c2-9c05-da24090fd06b")]
 
 // Version information for an assembly consists of the following four values:
 //

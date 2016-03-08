@@ -4,13 +4,13 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using Microsoft.AspNet.Identity.EntityFramework;
-using SocialCooking.API.Entity;
+using SocialCooking.API.Entities;
 
 namespace SocialCooking.API.Models
 {
     public class AuthContext : IdentityDbContext<IdentityUser>
     {
-        public AuthContext()
+        public AuthContext() 
             : base("SCContext")
         {
         }

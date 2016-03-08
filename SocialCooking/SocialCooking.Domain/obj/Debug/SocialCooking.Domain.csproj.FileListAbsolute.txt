@@ -1,5 +1,20 @@
+C:\Users\KAD\Documents\PrivateSources\Social Cooking\SocialCooking\SocialCooking.Domain\bin\Debug\SocialCooking.Domain.dll.config
+C:\Users\KAD\Documents\PrivateSources\Social Cooking\SocialCooking\SocialCooking.Domain\bin\Debug\SocialCooking.Domain.dll
+C:\Users\KAD\Documents\PrivateSources\Social Cooking\SocialCooking\SocialCooking.Domain\bin\Debug\SocialCooking.Domain.pdb
+C:\Users\KAD\Documents\PrivateSources\Social Cooking\SocialCooking\SocialCooking.Domain\bin\Debug\EntityFramework.dll
+C:\Users\KAD\Documents\PrivateSources\Social Cooking\SocialCooking\SocialCooking.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KAD\Documents\PrivateSources\Social Cooking\SocialCooking\SocialCooking.Domain\bin\Debug\EntityFramework.xml
+C:\Users\KAD\Documents\PrivateSources\Social Cooking\SocialCooking\SocialCooking.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KAD\Documents\PrivateSources\Social Cooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.csprojResolveAssemblyReference.cache
+C:\Users\KAD\Documents\PrivateSources\Social Cooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.dll
+C:\Users\KAD\Documents\PrivateSources\Social Cooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.pdb
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Debug\SocialCooking.Domain.dll.config
 C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Debug\SocialCooking.Domain.dll
 C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Debug\SocialCooking.Domain.pdb
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Debug\EntityFramework.dll
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Debug\EntityFramework.xml
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.csprojResolveAssemblyReference.cache
 C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.dll
 C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.pdb

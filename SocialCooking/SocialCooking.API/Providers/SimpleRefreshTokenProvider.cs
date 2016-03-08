@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using Microsoft.Owin.Security.Infrastructure;
-using SocialCooking.API.Entity;
+using SocialCooking.API.Entities;
 
 namespace SocialCooking.API.Providers
 {

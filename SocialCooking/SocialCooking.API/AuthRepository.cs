@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Web;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-using SocialCooking.API.Entity;
+using SocialCooking.API.Entities;
 using SocialCooking.API.Models;
 
 namespace SocialCooking.API

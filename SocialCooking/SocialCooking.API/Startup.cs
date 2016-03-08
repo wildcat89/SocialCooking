@@ -6,7 +6,6 @@ using Owin;
 using System;
 using System.Web.Http;
 using SocialCooking.API;
-using SocialCooking.API.App_Start;
 using SocialCooking.API.Providers;
 
 [assembly: OwinStartup(typeof(Startup))]
@@ -20,7 +19,7 @@ namespace SocialCooking.API
 
         public void Configuration(IAppBuilder app)
         {
-
+            
             HttpConfiguration config = new HttpConfiguration();
             ConfigureOAuth(app);
             SimpleInjectorWebApiInitializer.Initialize(config);
@@ -31,7 +30,7 @@ namespace SocialCooking.API
 
         public void ConfigureOAuth(IAppBuilder app)
         {
-
+           
             //use a cookie to temporarily store information about a user logging in with a third party login provider
             app.UseExternalSignInCookie(Microsoft.AspNet.Identity.DefaultAuthenticationTypes.ExternalCookie);
             OAuthBearerOptions = new OAuthBearerAuthenticationOptions();

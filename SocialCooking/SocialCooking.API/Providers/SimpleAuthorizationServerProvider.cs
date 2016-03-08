@@ -7,7 +7,7 @@ using System.Web;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.OAuth;
-using SocialCooking.API.Entity;
+using SocialCooking.API.Entities;
 
 namespace SocialCooking.API.Providers
 {

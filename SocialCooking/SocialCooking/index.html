@@ -1,10 +1,58 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="socialCookingApp">
 <head>
-    <title>Dupa</title>
-	<meta charset="utf-8" />
+    <title>AngularJS Authentication</title>
+    <link href="content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/css/Site.css" rel="stylesheet" />
+    <link href="content/css/loading-bar.css" rel="stylesheet" />
+    <link href="content/css/social-buttons.css" rel="stylesheet" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />-->
 </head>
 <body>
-    Dupa
+    <nav class="navbar navbar-inverse" role="navigation" ng-controller="indexController">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="btn btn-success navbar-toggle" ng-click="navbarExpanded = !navbarExpanded">
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </button>
+                <a class="navbar-brand" href="#/">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" data-collapse="!navbarExpanded">
+                <ul class="nav navbar-nav navbar-right">
+                    <li ng-hide="!authentication.isAuth"><a href="#">Welcome {{authentication.userName}}</a></li>
+                    <li ng-hide="!authentication.isAuth"><a href="" ng-click="logOut()">Logout</a></li>
+                    <li ng-hide="!authentication.isAuth"><a href="#/dish">Dodaj przepis</a></li>
+                    <li ng-hide="authentication.isAuth"> <a href="#/login">Login</a></li>
+                    <li ng-hide="authentication.isAuth"> <a href="#/signup">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div ng-view>
+        </div>
+    </div>
+    <!-- 3rd party libraries -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="scripts/angular-local-storage.min.js"></script>
+    <script src="scripts/loading-bar.min.js"></script>
+    <!-- Load app main script -->
+    <script src="app/app.js"></script>
+    <!-- Load services -->
+    <script src="app/auth/services/AuthInterceptorService.js"></script>
+    <script src="app/auth/services/AuthService.js"></script>
+    <script src="app/auth/services/TokensManagerService.js"></script>
+    <!-- Load controllers -->
+    <script src="app/navbar/controllers/IndexController.js"></script>
+    <script src="app/home/controllers/HomeController.js"></script>
+    <script src="app/auth/controllers/LoginController.js"></script>
+    <script src="app/auth/controllers/SignupController.js"></script>
+    <script src="app/auth/controllers/RefreshController.js"></script>
+    <script src="app/auth/controllers/TokensManagerController.js"></script>
+    <script src="app/auth/controllers/AssociateController.js"></script>
 </body>
 </html>
