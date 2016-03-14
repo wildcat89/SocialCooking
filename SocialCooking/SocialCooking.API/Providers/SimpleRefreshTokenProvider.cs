@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
 using Microsoft.Owin.Security.Infrastructure;
-using SocialCooking.API.Entities;
+using SocialCooking.Domain.Concrete;
+using SocialCooking.Domain.Entity;
 
 namespace SocialCooking.API.Providers
 {

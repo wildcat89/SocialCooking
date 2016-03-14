@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using SocialCooking.API.Models;
 using SocialCooking.Domain.Abstract;
+using SocialCooking.Domain.Concrete;
 using SocialCooking.Domain.Entity;
 
 namespace SocialCooking.API.Controllers

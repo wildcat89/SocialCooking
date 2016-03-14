@@ -1,0 +1,10 @@
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Release\SocialCooking.Domain.dll.config
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Release\SocialCooking.Domain.dll
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Release\SocialCooking.Domain.pdb
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Release\EntityFramework.dll
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Release\EntityFramework.xml
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Release\SocialCooking.Domain.csprojResolveAssemblyReference.cache
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Release\SocialCooking.Domain.dll
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Release\SocialCooking.Domain.pdb

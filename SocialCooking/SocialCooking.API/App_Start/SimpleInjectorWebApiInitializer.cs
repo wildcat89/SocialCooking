@@ -41,9 +41,6 @@ namespace SocialCooking.API
             {
                 container.Register(reg.Service, reg.Implementation, Lifestyle.Transient);
             }
-            //container.Register<IDishIngredientRepository, SCDishIngredientRepository>();
-            // For instance:
-            // container.Register<IUserRepository, SqlUserRepository>(Lifestyle.Scoped);
         }
     }
 }

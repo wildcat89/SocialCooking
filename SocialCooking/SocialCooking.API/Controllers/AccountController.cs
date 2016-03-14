@@ -13,7 +13,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Linq;
-using SocialCooking.API.Models;
+using SocialCooking.Domain.Models;
 using SocialCooking.API.Results;
 
 namespace SocialCooking.API.Controllers

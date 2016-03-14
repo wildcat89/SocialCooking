@@ -83,6 +83,7 @@
     <Content Include="authComplete.html" />
     <Content Include="Content\css\social-buttons.css" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FTPWEB.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

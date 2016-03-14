@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SCContext-Web.config Connection String" description="SCContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=mssql3.webio.pl,2401;Initial Catalog=wildcat89_SocialCooking;Uid=wildcat89_wildcat89;Password=Szw@jcarska3" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\KAD\\Documents\\GitHub\\SocialCooking\\SocialCooking\\SocialCooking\.API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SCContext']/@connectionString" />
+  </parameter>
+</parameters>

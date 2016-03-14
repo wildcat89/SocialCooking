@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMd8+JvhzAUC9gNTMpMWGCQAAAAACAAAAAAADZgAAwAAAABAAAABovpeo8wYG4rurQx+ear4zAAAAAASAAACgAAAAEAAAAMIlILdL536zCGz75gwrSG8YAAAA/sEYxWxcgo2xw4moHvFI9YXH3Nh3fVyAFAAAABwn2TfivttFYsKEzzrA9HlU2mhy</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.kduszynski.pl/kduszynski.pl\wwwroot\socialcooking</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app/app.js">
+      <publishTime>03/11/2016 08:53:35</publishTime>
+    </File>
+    <File Include="app/auth/controllers/AssociateController.js">
+      <publishTime>03/10/2016 14:22:39</publishTime>
+    </File>
+    <File Include="app/auth/controllers/LoginController.js">
+      <publishTime>03/09/2016 14:21:43</publishTime>
+    </File>
+    <File Include="app/auth/controllers/RefreshController.js">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="app/auth/controllers/SignupController.js">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="app/auth/controllers/TokensManagerController.js">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="app/auth/services/AuthInterceptorService.js">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="app/auth/services/AuthService.js">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="app/auth/services/TokensManagerService.js">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="app/auth/views/associate.html">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="app/auth/views/login.html">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="app/auth/views/signup.html">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="app/auth/views/tokens.html">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="app/dish/controllers/DishController.js">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="app/dish/services/DishService.js">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="app/dish/views/addDish.html">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="app/home/controllers/HomeController.js">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="app/home/views/home.html">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="app/navbar/controllers/IndexController.js">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="authComplete.html">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>01/14/2016 12:21:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>01/14/2016 12:21:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>01/14/2016 12:21:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>01/14/2016 12:21:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>01/14/2016 12:21:27</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>01/14/2016 12:21:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>01/14/2016 12:21:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>01/14/2016 12:21:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>01/14/2016 12:21:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>01/14/2016 12:21:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>01/14/2016 12:21:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>01/14/2016 12:21:23</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>01/14/2016 12:21:23</publishTime>
+    </File>
+    <File Include="bin/SocialCooking.Web.dll">
+      <publishTime>03/10/2016 15:32:48</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.css">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.min.css">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Content/css/loading-bar.css">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Content/css/loading-bar.min.css">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Content/css/Site.css">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Content/css/social-buttons.css">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>03/10/2016 11:49:23</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/14/2016 12:21:32</publishTime>
+    </File>
+    <File Include="Scripts/angular-local-storage.min.js">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Scripts/angular-route.min.js">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Scripts/authComplete.js">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Scripts/loading-bar.min.js">
+      <publishTime>01/14/2016 12:21:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/10/2016 15:32:50</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
