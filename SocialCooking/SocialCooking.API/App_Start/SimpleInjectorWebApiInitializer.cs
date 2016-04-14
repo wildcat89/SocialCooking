@@ -39,7 +39,7 @@ namespace SocialCooking.API
 
             foreach (var reg in registrations)
             {
-                container.Register(reg.Service, reg.Implementation, Lifestyle.Transient);
+                container.Register(reg.Service, reg.Implementation, Lifestyle.Scoped);
             }
         }
     }

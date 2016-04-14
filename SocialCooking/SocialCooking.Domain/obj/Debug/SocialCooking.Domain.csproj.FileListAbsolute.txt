@@ -21,3 +21,6 @@ C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\b
 C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.dll
 C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.pdb
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.Migrations.Context.resources
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.csproj.GenerateResource.Cache
+C:\Users\KAD\Documents\GitHub\SocialCooking\SocialCooking\SocialCooking.Domain\obj\Debug\SocialCooking.Domain.csprojResolveAssemblyReference.cache

@@ -63,24 +63,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IDishRepository.cs" />
+    <Compile Include="Abstract\IUsersRepository.cs" />
     <Compile Include="Concrete\AuthRepository.cs" />
+    <Compile Include="Concrete\SCUsersRepository.cs" />
     <Compile Include="Context\AuthContext.cs" />
     <Compile Include="Context\SCContext.cs" />
     <Compile Include="Concrete\SCDishRepository.cs" />
     <Compile Include="Entity\AppClient.cs" />
+    <Compile Include="Entity\AspNetUsers.cs" />
     <Compile Include="Entity\Dish.cs" />
     <Compile Include="Entity\DishCategory.cs" />
     <Compile Include="Entity\DishDifficultyLevel.cs" />
     <Compile Include="Entity\DishIngredient.cs" />
     <Compile Include="Entity\RefreshToken.cs" />
+    <Compile Include="Entity\UsersExtension.cs" />
+    <Compile Include="Migrations\201604120938350_Context.cs" />
+    <Compile Include="Migrations\201604120938350_Context.Designer.cs">
+      <DependentUpon>201604120938350_Context.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Enums.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201604120938350_Context.resx">
+      <DependentUpon>201604120938350_Context.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

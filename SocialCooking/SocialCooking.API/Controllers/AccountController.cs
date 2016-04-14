@@ -15,6 +15,7 @@ using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Linq;
 using SocialCooking.Domain.Models;
 using SocialCooking.API.Results;
+using SocialCooking.Domain.Concrete;
 
 namespace SocialCooking.API.Controllers
 {

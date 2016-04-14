@@ -1,6 +1,6 @@
-﻿    var app = angular.module('socialCookingApp', ['ngRoute', 'LocalStorageModule', 'angular-loading-bar']);
+﻿    var app = angular.module('socialCookingApp', ['ngRoute', 'LocalStorageModule', 'angular-loading-bar', 'ngFileUpload']);
     app.config(function ($routeProvider) {
-        var appBaseUri = 'http://kduszynski.pl/socialcooking';
+        var appBaseUri = 'http://localhost/SocialCooking.Web';
         $routeProvider.when("/home", {
             controller: "homeController",
             templateUrl: appBaseUri+"/app/home/views/home.html"
@@ -31,16 +31,29 @@
             templateUrl: appBaseUri+"/app/dish/views/addDish.html"
         });
 
+        $routeProvider.when("/profile", {
+            controller: "profileDetailsController",
+            templateUrl: appBaseUri + "/app/profile/views/ProfileDetails.html",
+            controllerAs: 'vm'
+        });
+
         $routeProvider.otherwise({ redirectTo: "/home" });
     });
+    //app.constant('ngAuthSettings', {
+    //    appBaseUri: 'http://kduszynski.pl/socialcooking',
+    //    apiServiceBaseUri: 'http://socialcookingapi.azurewebsites.net/',
+    //    clientId: 'ngApp'
+    //});
+
     app.constant('ngAuthSettings', {
-        appBaseUri: 'http://kduszynski.pl/socialcooking',
-        apiServiceBaseUri: 'http://socialcookingapi.azurewebsites.net/',
+        appBaseUri: 'http://localhost/SocialCooking.Web',
+        apiServiceBaseUri: 'http://localhost:82/',
         clientId: 'ngApp'
     });
 
-    app.config(function ($httpProvider) {
+    app.config(function ($httpProvider, $compileProvider) {
         $httpProvider.interceptors.push('authInterceptorService');
+        $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|local|data|file):/);
     });
 
     app.run(['authService', function (authService) {

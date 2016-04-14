@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.OAuth;
+using SocialCooking.Domain.Concrete;
 using SocialCooking.Domain.Entity;
 
 namespace SocialCooking.API.Providers

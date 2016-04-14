@@ -16,7 +16,7 @@
     <RootNamespace>SocialCooking.Web</RootNamespace>
     <AssemblyName>SocialCooking.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -80,6 +80,9 @@
     <Content Include="app\dish\controllers\DishController.js" />
     <Content Include="app\dish\services\DishService.js" />
     <Content Include="app\dish\views\addDish.html" />
+    <Content Include="app\profile\controllers\ProfileDetailsController.js" />
+    <Content Include="app\profile\services\ProfileService.js" />
+    <Content Include="app\profile\views\ProfileDetails.html" />
     <Content Include="authComplete.html" />
     <Content Include="Content\css\social-buttons.css" />
     <Content Include="packages.config" />
@@ -114,7 +117,16 @@
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\authComplete.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\FileAPI.flash.swf" />
+    <Content Include="Scripts\FileAPI.js" />
+    <Content Include="Scripts\FileAPI.min.js" />
     <Content Include="Scripts\loading-bar.min.js" />
+    <Content Include="Scripts\ng-file-upload-all.js" />
+    <Content Include="Scripts\ng-file-upload-all.min.js" />
+    <Content Include="Scripts\ng-file-upload-shim.js" />
+    <Content Include="Scripts\ng-file-upload-shim.min.js" />
+    <Content Include="Scripts\ng-file-upload.js" />
+    <Content Include="Scripts\ng-file-upload.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -142,7 +154,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54920</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54920/</IISUrl>
+          <IISUrl>http://localhost/SocialCooking.Web</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

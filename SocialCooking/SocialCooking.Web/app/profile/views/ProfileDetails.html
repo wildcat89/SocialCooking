@@ -1,0 +1,26 @@
+﻿<div class="view indent">
+    <div class="container">
+        <div class="button" ngf-select="vm.upload($file)">Upload on file select</div>
+        <div class="profile row col-lg-12">
+            <div class="profile-image col-lg-6">
+                <img src={{vm.profile.imageThumbPath}} />
+            </div>
+            <div class="profile-title col-lg-6">
+                <h3>{{vm.profile.usersUserName}}</h3>
+            </div>
+        </div>
+
+        <div class="profile-birthDate row col-lg-12">
+            {{vm.profile.birthDate}}
+        </div>
+        <div class="profile-joinDate row col-lg-12">
+            {{vm.profile.joinDate}}
+        </div>
+        <div class="profile-city row col-lg-12">
+            {{vm.profile.city}}
+        </div>
+        <div class="profile-country row col-lg-12">
+            {{vm.profile.country}}
+        </div>
+    </div>
+</div>

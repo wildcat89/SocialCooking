@@ -18,7 +18,7 @@
             </div>
             <div class="collapse navbar-collapse" data-collapse="!navbarExpanded">
                 <ul class="nav navbar-nav navbar-right">
-                    <li ng-hide="!authentication.isAuth"><a href="#">Welcome {{authentication.userName}}</a></li>
+                    <li ng-hide="!authentication.isAuth"><a href="#/profile">Welcome {{authentication.userName}}</a></li>
                     <li ng-hide="!authentication.isAuth"><a href="" ng-click="logOut()">Logout</a></li>
                     <li ng-hide="!authentication.isAuth"><a href="#/dish" >Dodaj przepis</a></li>
                     <li ng-hide="authentication.isAuth"> <a href="#/login">Login</a></li>
@@ -38,14 +38,17 @@
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="scripts/angular-local-storage.min.js"></script>
-    <script src="scripts/loading-bar.min.js"></script>
+<script src="scripts/loading-bar.min.js"></script>
+<script src="Scripts/ng-file-upload-shim.js"></script>
+    <script src="Scripts/ng-file-upload.js"></script>
     <!-- Load app main script -->
     <script src="app/app.js"></script>
     <!-- Load services -->
     <script src="app/auth/services/AuthInterceptorService.js"></script>
     <script src="app/auth/services/AuthService.js"></script>
     <script src="app/auth/services/TokensManagerService.js"></script>
-    <script src="app/dish/services/DishService.js"></script>
+<script src="app/dish/services/DishService.js"></script>
+    <script src="app/profile/services/ProfileService.js"></script>
     <!-- Load controllers -->
     <script src="app/navbar/controllers/IndexController.js"></script>
     <script src="app/home/controllers/HomeController.js"></script>
@@ -54,6 +57,7 @@
     <script src="app/auth/controllers/RefreshController.js"></script>
     <script src="app/auth/controllers/TokensManagerController.js"></script>
     <script src="app/auth/controllers/AssociateController.js"></script>
-    <script src="app/dish/controllers/DishController.js"></script>
+<script src="app/dish/controllers/DishController.js"></script>
+    <script src="app/profile/controllers/ProfileDetailsController.js"></script>
 </body>
 </html>
